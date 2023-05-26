@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head,
+body{
+    overflow-x: hidden;
+}
+
+.content{
+    padding: 45px;
+    font-family: Quicksand;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navitem a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: "Quicksand";
+    cursor: pointer;
+    padding: 16px;
+}
+
+.navitem a:hover{
+    background-color: rgb(237, 241, 241);
+}
+
+
+.iconav{
+    color: rgb(133, 122, 122);
+    font-size: 25px;
+    padding: 20px;
+}
+
+.iconav:hover{
+    background-color: rgb(237, 241, 241);
+}
+
+
+.main{
+    height: 903px;
+    background-image: url("R.jpg");
+    background-repeat: no-repeat; 
+    background-size:cover;
+    max-width: 100%;
+    padding: 50px;
+    padding-top: 280px;
+}
+
+.main p{
+    color: white;
+    font-family: "DM Sans";
+}
+
+.pmain{
+    font-size: 60px;
+    padding-bottom: 55px;
+}
+
+.pmain2{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.main button{
+    border: none;
+    background-color: rgb(153, 156, 156);
+    padding: 17px;
+    font-size: 20px ;
+}
+
+.main i{
+    color: rgb(153, 156, 156);;
+    padding:300px 10px;
+}
+
+.aboutAbt{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pabt{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.pabt2{
+    font-size: 17px;
+}
+#about{
+    margin-top: 100px;
+
+
+}
+
+.sectionsAbt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 64px;
+}
+.sectionsAbt div{
+    margin-right: 10px;
+}
+.sectionsAbt i,p{
+    padding-bottom: 20px;
+}
+
+.sectionsAbt i{
+    font-size: 60px;
+}
+
+.pabt3{
+    font-size: 20px;
+}
+
+.pabt4{
+    line-height: 1.6
+}
+
+.promo{
+    padding:90px 32px;
+    margin-top: 100px;
+    background-color: rgb(230, 230, 230);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Quicksand;
+}
+
+.pP3{
+    padding: 16px;
+    background-color: black;
+    width: 180px;
+}
+.pP3 a{
+    text-decoration: none;
+    color: white;
+}
+.imgPromo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgPromo img{
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+.pP1{
+    font-size: 30px;
+}
+
+.teamT{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.pTeam1{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.pTeam2{
+    font-size: 17px;
+}
+
+.teamPhotos img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 50%;
+    object-fit: cover;
+}
+
+.teamPhotos{
+    display: grid;
+    gap: 10px;
+}
+
+.teamPhotos2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+}
+
+
+.divTeam{
+    margin:20px;
+}
+.pTeam5{
+    font-size: 15px;
+}
+.pTeam6{
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+
+}
+
+.pTeam6 a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.pTeam3{
+    font-size: 25px;
+}
+
+.pTeam4{
+    opacity: 80%;
+}
+
+@media (min-width: 1025px){
+    .teamPhotos{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+    }
+
+    .sectionsAbt{
+        flex-direction: row;
+    } 
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .promo{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    
+
+    .imgPromo{
+        margin-top: 20px;
+    }
+    .teamPhotos{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        
+    }
+
+    .imgPromo img{
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media (max-width: 600px){
+
+    .teamPhotos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionsAbt{
+        flex-direction: column;
+    }
+
+    .promo{
+        grid-template-columns: auto;
+        grid-template-rows: 50% 50%;
+
+    }
+    .imgPromo img{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
