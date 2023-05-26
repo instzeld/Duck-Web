@@ -233,6 +233,11 @@ body{
     opacity: 80%;
 }
 
+.barsNav{
+    display: none;
+    float: right;
+}
+
 @media (min-width: 1025px){
     .teamPhotos{
         display: grid;
@@ -290,8 +295,13 @@ body{
     }
     .imgPromo img{
         width: 100%;
+    }  
+    .navIcon, .navitem{
+        display: none;
+    } 
+    .barsNav{
+        display: block;
     }
-
 }
 
 
