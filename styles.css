@@ -81,10 +81,13 @@ body{
     padding: 17px;
     font-size: 20px ;
 }
-
+.mainI{
+    position: absolute;
+    bottom: 20px;
+}
 .main i{
     color: rgb(153, 156, 156);;
-    padding:300px 10px;
+    padding-left: 10px;
 }
 
 .aboutAbt{
@@ -331,7 +334,9 @@ body{
         padding-top: 0px;
         padding-bottom: 0px;
     }
-    
+    .mainI{
+        bottom: 2px;
+    }
 }
 
 
