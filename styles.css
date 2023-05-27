@@ -24,11 +24,6 @@ body{
     overflow: hidden;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
 
 .navitem a{
     text-decoration: none;
@@ -235,7 +230,38 @@ body{
 
 .barsNav{
     display: none;
-    float: right;
+}
+
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a{
+    padding: 8px 8px 30px 26px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #666666;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover{
+    color: aliceblue;
+}
+
+.closebutton{
+    position: absolute;
+    top: 5px;
+    font-size: 36px;
 }
 
 @media (min-width: 1025px){
@@ -267,16 +293,7 @@ body{
         grid-template-rows: auto auto ;
         
     }
-
-    .imgPromo img{
-        width: 100%;
-    }
-
 }
-
-
-
-
 @media (max-width: 600px){
 
     .teamPhotos{
@@ -296,12 +313,25 @@ body{
     .imgPromo img{
         width: 100%;
     }  
-    .navIcon, .navitem{
+    .navitem{
         display: none;
     } 
     .barsNav{
         display: block;
     }
+    .barsNav{
+        font-size: 19px;
+        padding: 20px;
+        color: black;
+    }
+    .barsNav:hover{
+        background-color: rgb(237, 241, 241);
+    }
+    .navbar{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
 }
 
 
