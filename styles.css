@@ -52,7 +52,7 @@ body{
 
 .main{
     height: 903px;
-    background-image: url("R.jpg");
+    background-image: url("/images/R.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -292,6 +292,21 @@ body{
 
 .infoP2{
     font-size: 18px;
+}
+
+.workInfo{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.workIP1{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.workIP2{
+    font-size: 17px;
 }
 @media (min-width: 1025px){
     .teamPhotos{
