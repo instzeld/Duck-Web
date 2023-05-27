@@ -52,7 +52,7 @@ body{
 
 .main{
     height: 903px;
-    background-image: url("/images/R.jpg");
+    background-image: url("images/R.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
