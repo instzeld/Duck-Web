@@ -58,6 +58,7 @@ body{
     max-width: 100%;
     padding: 50px;
     padding-top: 280px;
+    
 }
 
 .main p{
@@ -83,6 +84,8 @@ body{
 }
 .mainI{
     position: absolute;
+    left: 50px;
+    right: 10px;
     bottom: 20px;
 }
 .main i{
@@ -444,7 +447,82 @@ body{
     text-align: center;
 }
 
+.contactAbt{
+    text-align: center;
+}
 
+.contactP1{
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.contactP2{
+    font-size: 25px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contactI{
+    font-size: 30px;
+}
+
+.contactP{
+    font-size: 18px;
+}
+
+.contactBtn{
+    border: none;
+    padding: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    font-size: 13px;
+}
+
+.contactInput{
+    width: 100%;
+    border: solid 1px rgb(211, 211, 211);
+    padding: 13px;
+    font-size: 15px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Quicksand;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    background-color: white;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+
+.footerDiv i{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+.footerP{
+    margin-bottom: 50px;
+}
 @media (min-width: 1025px){
     .teamPhotos{
         display: grid;

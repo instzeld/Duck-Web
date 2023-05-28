@@ -19,20 +19,20 @@
                 <a href="#about">About</a>
                 <a href="#workL">Work</a>
                 <a href="#pricingL">Pricing</a>
-                <a href="#">Contact</a>
+                <a href="#contactL">Contact</a>
             </div>
         
         
             <div class="navbar">
                 <div class="navIcon">
-                    <a href="#main" class="iconav"><i class="fa fa-cubes"></i></a>
+                    <a href="#mainL" class="iconav"><i class="fa fa-cubes"></i></a>
                     </div >
                 <div class="navitem">
                     <a href="#about">ABOUT</a>
                     <a href="#teamL"><i class="fa-solid fa-user"></i> TEAM</a>
                     <a href="#workL"><i class="fa-solid fa-table-cells"></i> WORK</a>
                     <a href="#pricingL"><i class="fa-solid fa-dollar-sign"></i> PRICING</a>
-                    <a href="#contact"><i class="fa-solid fa-phone"></i> CONTACT</a>
+                    <a href="#contactL"><i class="fa-solid fa-phone"></i> CONTACT</a>
                 </div>
                 <a href="#" class="barsNav" onclick="openSide()"><i class="fa fa-bars"></i></a>
 
@@ -41,7 +41,7 @@
 
             
            </div>
-        <div class="main">
+        <div class="main" id="mainL">
             <p class="pmain">A place with a lot of clothes</p>
             <P class="pmain2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             </P>
@@ -266,5 +266,49 @@
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="content">
+                            <div class="contact" id="contactL">
+                                <div class="contactAbt">
+                                    <p class="contactP1">Contact</p>
+                                    <p class="contactP2">Lets get in touch. Send us a message:</p>
+                                </div>
+                                <div class="contactText">
+                                    <p class="contactP"><i class="fa fa-map-marker contactI"></i>  Oaxaca, Mx</p>
+                                    <p class="contactP"><i class="fa fa-phone contactI"></i>  Phone: +00 567337</p>
+                                    <p class="contactP"><i class="fa fa-envelope contactI"> </i>      Email: mail@mail.com</p>
+                                    <br>
+                                    <form>
+                                        <p><input type="text" placeholder="Name" required name="Name" class="contactInput"></p>
+                                        <p><input type="text" placeholder="Email" required name="Email" class="contactInput"></p>
+                                        <p><input type="text" placeholder="Subject" required name="Subject" class="contactInput"></p>
+                                        <p><input type="text" placeholder="Message" required name="Message" class="contactInput"></p>
+                                        <p>
+                                          <button  class="contactBtn" type="submit">
+                                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                                          </button>
+                                        </p>
+                                      </form>
+                                      <img src="images/imageGiant.jpg" alt="imageClothe" style="width: 100%;margin-top: 48px;">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <footer class="footer">
+                            <a href="#mainL"><i class="fa fa-arrow-up"></i> To the top</a>
+                            <div class="footerDiv">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-snapchat"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                            <div class="footerP">
+                            <p>Powered by Netlify</p>
+                            <p>This was a test for me to practice c:</p>
+                        </div>
+                        </footer>
 </body>
 </html>
