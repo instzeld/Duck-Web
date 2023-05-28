@@ -341,16 +341,110 @@ body{
 
 }
 .barStadistic{
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(177, 175, 175);
     width: 100%;
     margin-bottom: 15px;
 }
 .barStadistic div{
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(148, 148, 148);
     padding: 4px;
     color: #f1f1f1;
     text-align: center;
 }
+
+.pricingP1{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.pricingP2{
+    font-size: 17px;
+}
+.pricing{
+    font-family: Quicksand;
+    background-color:rgb(148, 148, 148);
+    padding:100px 16px 50px;
+}
+
+.pricingAbt{
+    text-align: center;
+    color: white;
+}
+
+.pricingCards{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    margin-top: 50px;
+    padding: 0px;
+    align-items: center;
+}
+
+.pricingCard{
+    background-color: white;
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pricingText{
+    padding: 32px; 
+    background-color: black;
+    color: white; 
+    text-align: center;
+    font-size: x-large;
+}
+
+.pricingBtn{
+    padding: 18px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #f1f1f1;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+}
+
+.pricingCard p{
+    padding: 24px;
+
+}
+
+.borderPricing, .pricingMoney, .pricingBtn{
+    border: solid 1px rgb(211, 211, 211);
+}
+
+.pricingMoney{
+    text-align: center;
+    padding: 28px;
+}
+.pricingButton{
+    background-color: rgb(230, 228, 228);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricingMoney p{
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-family: Raleway;
+}
+
+.pricingCard b{
+    font-family: Raleway;
+}
+
+.pricingMoney span{
+    opacity: 80%;
+}
+
+.pricingCard p{
+    text-align: center;
+}
+
+
 @media (min-width: 1025px){
     .teamPhotos{
         display: grid;
