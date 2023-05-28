@@ -71,7 +71,9 @@ body{
 .pmain{
     font-size: 64px;
 }
-
+.mainI{
+    float: left;
+}
 .pmain2{
     font-size: 20px;
 }
