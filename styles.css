@@ -68,12 +68,10 @@ body{
 
 .pmain{
     font-size: 60px;
-    padding-bottom: 55px;
 }
 
 .pmain2{
     font-size: 20px;
-    padding-bottom: 40px;
 }
 
 .main button{
@@ -84,7 +82,7 @@ body{
 }
 .mainI{
     position: absolute;
-    left: 50px;
+    left: 0;
     right: 10px;
     bottom: 20px;
 }
