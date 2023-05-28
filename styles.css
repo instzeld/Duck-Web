@@ -457,7 +457,7 @@ body{
     } 
 }
 
-@media (min-width: 601px) and (max-width: 1024px){
+@media (min-width: 701px) and (max-width: 1024px){
     .promo{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -482,7 +482,9 @@ body{
     }
 
 }
-@media (max-width: 600px){
+
+
+@media (max-width: 700px){
 
     .teamPhotos{
         display: flex;
@@ -528,6 +530,22 @@ body{
         grid-template-rows: 25% 25% 25% 25%;
     }
 
+    .pricingCards{
+        flex-direction: column;
+    }
+
+    .pricingCard{
+        width: 100%;
+    }
+
+    .pricing{
+        height: 2500px;
+    }
+    .stadistics{
+
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
 }
 
 
