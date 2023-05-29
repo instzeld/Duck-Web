@@ -14,12 +14,12 @@
 
         <div class="header">
             <div id="sideBar" class="sidebar" >
-                <a class="closebutton" href="javascript:void(0)" onclick="closeSide()">X</a>
-                <a href="#teamL">Team</a>
-                <a href="#about">About</a>
-                <a href="#workL">Work</a>
-                <a href="#pricingL">Pricing</a>
-                <a href="#contactL">Contact</a>
+                <a class="closebutton" href="#" onclick="closeSide()">X</a>
+                <a href="#teamL" onclick="closeSide()">Team</a>
+                <a href="#about" onclick="closeSide()">About</a>
+                <a href="#workL" onclick="closeSide()">Work</a>
+                <a href="#pricingL" onclick="closeSide()">Pricing</a>
+                <a href="#contactL" onclick="closeSide()">Contact</a>
             </div>
         
         
@@ -28,7 +28,7 @@
                     <a href="#navL" class="iconav"><i class="fa fa-cubes"></i></a>
                     </div >
                 <div class="navitem">
-                    <a href="#about">ABOUT</a>
+                    <a href="#about" >ABOUT</a>
                     <a href="#teamL"><i class="fa-solid fa-user"></i> TEAM</a>
                     <a href="#workL"><i class="fa-solid fa-table-cells"></i> WORK</a>
                     <a href="#pricingL"><i class="fa-solid fa-dollar-sign"></i> PRICING</a>
@@ -140,7 +140,12 @@
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
+        </div>
+                    <div  class="modal" id="modal1" onclick="this.style.display='none'">
+                        <p class="closeModal">x</p>
+                        <img  class="modalImage" id="imgModal">
+                        <div id="modalText"></div>
                     </div>
                     <div class="information">
                         <div>
@@ -169,16 +174,16 @@
                             </div>
                             <div class="workImg">
                                 <div class="workImage">
-                                    <img class="workImages1" src="images/imageWork1.jpg" alt="">
-                                    <img class="workImages1" src="images/imageWork2.jpg" alt="">
-                                    <img class="workImages2" src="images/imageWork3.jpg" alt="">
-                                    <img class="workImages2" src="images/imageWork4.jpg" alt="">
+                                    <img onclick="openModal(this)" class="workImages1" src="images/imageWork1.jpg" alt="A woman with our clothes">
+                                    <img onclick="openModal(this)" class="workImages1" src="images/imageWork2.jpg" alt="Some shirts">
+                                    <img onclick="openModal(this)" class="workImages2" src="images/imageWork3.jpg" alt="Some shirts">
+                                    <img onclick="openModal(this)" class="workImages2" src="images/imageWork4.jpg" alt="Our shop">
                                 </div>
                                 <div class="workImage">
-                                    <img class="workImages1" src="images/imageWork5.jpg" alt="">
-                                    <img class="workImages1" src="images/imageWork6.jpg" alt="">
-                                    <img class="workImages2" src="images/imageWork7.jpg" alt="">
-                                    <img class="workImages2" src="images/imageWork8.jpg" alt="">
+                                    <img onclick="openModal(this)" class="workImages1" src="images/imageWork5.jpg" alt="Our jackets">
+                                    <img onclick="openModal(this)" class="workImages1" src="images/imageWork6.jpg" alt="More shirts">
+                                    <img onclick="openModal(this)" class="workImages2" src="images/imageWork7.jpg" alt="Two pants">
+                                    <img onclick="openModal(this)" class="workImages2" src="images/imageWork8.jpg" alt="A shirt">
                                 </div>
                             </div>
 
