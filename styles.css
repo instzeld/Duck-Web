@@ -579,7 +579,11 @@ max-width: 700px;
 .footerP{
     margin-bottom: 50px;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
